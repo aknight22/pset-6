@@ -1,27 +1,91 @@
-* {
-  padding: 0;
+body {
+  background-color: black;
   margin: 50;
-  box-sizing: border-box;
 }
 
-body{
-  height: 100%;
-  background-color: #000000;
-}
-
-h3{
-  font-size: 28px;
-  font-weight: 50;
+.title {
+  font-family: serif;
+  font-size: 48px;
+  color: white;
+  border: 5px solid;
+  width: 300px;
   text-align: center;
-  color: #68BB59;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.input_bar {
+.user_input {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
-
 .input {
-  width:800px;
+  text-align: center;
+  width: 800px;
   height: 30px;
-  border-radius: 10px 10px 10px 10px; 
+  border-radius: 15px;
+  font-family: georgia;
+  font-size: 20px;
+}
+.button_add {
+  font-family: georgia;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 50px;
+}
+table {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    border-spacing: 10px;
+    background-color: white;
+    font-family: serif;
+    width: 1000px;
+}
+.to_do {
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px solid;
+  background-color: white;
+  font-size: 20px;
+}
+.to_do:hover {
+  background-color: lightgrey;
+}
+.row {
+    margin-top: 20px;
+    height: 40px;
+}
+.button_priority {
+    width: 40px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid;
+}
+.button_priority:hover {
+    background-color: gray;
+}
+.complete_button {
+    align: left;
+    width: 40px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid;
+}
+.complete_button:hover {
+    background-color: Lawngreen;
+}
+.remove_button {
+    align: left;
+    width: 40px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid;
+}
+.remove_button:hover {
+    background-color: red;
+}
+hr {
+  width: 90%;
 }
