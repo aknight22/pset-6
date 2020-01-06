@@ -5,3 +5,5 @@ function newElement() {
   li.appendChild(addedElement);
   document.getElementById("list").appendChild(li);
 }
+
+let empty = []; 
