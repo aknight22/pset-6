@@ -107,7 +107,7 @@ const prioritize_item = function() {
       if (elements[z].priority == false) {
         prioritize_elements = row[z]
         prioritize = true;
-        priority_button[z].style.backgroundColor = "gray";
+        priority_button[z].style.backgroundColor = "yellow";
         row[0].before(prioritize_elements);
         elements[z].priority = true;
 

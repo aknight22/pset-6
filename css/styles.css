@@ -63,7 +63,7 @@ table {
     border: 2px solid;
 }
 .button_priority:hover {
-    background-color: gray;
+    background-color: yellow;
 }
 .complete_button {
     align: left;
