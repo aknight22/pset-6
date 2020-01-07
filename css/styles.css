@@ -4,10 +4,9 @@ body {
 }
 
 .title {
-  font-family: serif;
-  font-size: 48px;
+  font-family: georgia;
+  font-size: 43px;
   color: white;
-  border: 5px solid;
   width: 300px;
   text-align: center;
   margin-left: auto;
@@ -31,20 +30,20 @@ body {
   font-family: georgia;
   font-size: 20px;
   border-radius: 15px;
-  width: 50px;
+  width: 60px;
 }
 table {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 22px;
-    border-spacing: 10px;
-    background-color: white;
-    font-family: serif;
+    margin-top: 20px;
+    border-spacing: 5px;
+    background-color: black;
+    font-family: georgia;
     width: 1000px;
 }
 .to_do {
-  font-family: sans-serif;
+  font-family: georgia;
   text-align: center;
   border: 2px solid;
   background-color: white;
@@ -58,7 +57,7 @@ table {
     height: 40px;
 }
 .button_priority {
-    width: 40px;
+    width: 35px;
     text-align: center;
     background-color: white;
     border: 2px solid;
@@ -68,17 +67,17 @@ table {
 }
 .complete_button {
     align: left;
-    width: 40px;
+    width: 35px;
     text-align: center;
     background-color: white;
     border: 2px solid;
 }
 .complete_button:hover {
-    background-color: Lawngreen;
+    background-color: #00ff00;
 }
 .remove_button {
     align: left;
-    width: 40px;
+    width: 35px;
     text-align: center;
     background-color: white;
     border: 2px solid;

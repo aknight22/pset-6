@@ -83,8 +83,8 @@ const finish_item = function() {
        if (elements[x].complete == false) {
          finish = true;
          list_item[x].style.setProperty("text-decoration", "line-through");
-         list_item[x].style.backgroundColor = "#baff66";
-         complete_button[x].style.backgroundColor = "#baff66";
+         list_item[x].style.backgroundColor = "#00ff00";
+         complete_button[x].style.backgroundColor = "#00ff00";
          elements[x].complete = true;
        }
        else if (elements[x].complete == true) {
@@ -107,7 +107,7 @@ const prioritize_item = function() {
       if (elements[z].priority == false) {
         prioritize_elements = row[z]
         prioritize = true;
-        priority_button[z].style.backgroundColor = "Crimson";
+        priority_button[z].style.backgroundColor = "gray";
         row[0].before(prioritize_elements);
         elements[z].priority = true;
 
